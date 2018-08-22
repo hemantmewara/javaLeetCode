@@ -1,0 +1,3 @@
+1.这题主要是两个for循环会超时，所以想办法用一个循环，就用target减去一个for循环的字，判断差值是否在剩下的数组里面,a in list的速度是很快的，相比for循环来说，当然更快的有bisect和set。
+2.这题主要是理解先result = result.next，还是先给result.next赋值，如果先result = result.next，再给result赋值，相当于重新指定result指向。所以要先给result.next赋值，然后result = result.next。
+3.str = [], append(), len(str), str[str.index(i) + 1: ]
