@@ -1,2 +1,2 @@
-# pythonLeetCode
-leet code with python
+# javaLeetCode
+leetCode with java
